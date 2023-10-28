@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A2A4A6"
+    tools:context=".MainActivity5">
+    <LinearLayout
+        android:id="@+id/lv1"
+        android:layout_width="408dp"
+        android:layout_height="148dp"
+        android:background="#C80F0F"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck">
+
+        <ImageView
+
+
+            android:id="@+id/pict00"
+            android:layout_width="122dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="33dp"
+            android:backgroundTint="#C61010"
+            android:contentDescription="@null"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.936"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+
+
+            android:id="@+id/test44"
+            android:layout_width="wrap_content"
+            android:layout_height="138dp"
+            android:layout_marginTop="10dp"
+
+            android:text=" PUNJABI NEWS CHANNEL"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.936"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            tools:ignore="SpeakableTextPresentCheck">
+
+
+        </TextView>
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/pict10"
+        android:layout_width="186dp"
+        android:layout_height="159dp"
+
+        android:layout_marginTop="176dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pbi3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/pict9"
+        android:layout_width="162dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="172dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pbi2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+
+
+        android:id="@+id/pict11"
+        android:layout_width="167dp"
+        android:layout_height="153dp"
+
+        android:layout_marginTop="448dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/c3"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+
+
+        android:id="@+id/pict12"
+        android:layout_width="161dp"
+        android:layout_height="160dp"
+
+        android:layout_marginTop="444dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/c5"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="151dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="372dp"
+        android:text=" News 18"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <TextView
+        android:layout_width="147dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="360dp"
+        android:text="PTC News "
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="151dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="604dp"
+        android:text=" ABP News"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="151dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="604dp"
+        android:text="Khalas Tv "
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
